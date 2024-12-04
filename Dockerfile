@@ -1,7 +1,5 @@
 FROM nvidia/cuda:12.1.0-cudnn8-devel-ubuntu22.04
 WORKDIR /
-EXPOSE 80/tcp
-EXPOSE 8000/tcp
 
 # Setup dependencies
 RUN apt update && \
